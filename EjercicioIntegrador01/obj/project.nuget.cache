@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l/c69k6nMBgxvd7RnX1t30OFwpMRoiUMBQWX+JqWbRmom1uIvLB8KvKSIJYCOTUsH065ICR+eFBssNqkYBGGWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Santiago\\Documents\\UTN\\Laboratorio II\\EjercicioIntegrador01\\EjercicioIntegrador01\\EjercicioIntegrador01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
