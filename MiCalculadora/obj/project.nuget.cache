@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xVt3wMPdq6xeqx0fCMJYKG3WaREdflsXQi3B7Dt2jV07P95VIGnd45Om2WdlI1TPNhtacVJAHBG6Fyk/OeKYrw==",
+  "dgSpecHash": "IJXJFpLZYU+woZyDuGVUVRd8gifHsUuzaV/5rD439yStuppR2aLjwPZD6ps1GcwelIOfcxJlxRUodAPCoqQnnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Santiago\\Documents\\UTN\\Laboratorio II\\EjercicioIntegrador01\\EjercicioIntegrador01\\EjercicioIntegrador01.csproj",
+  "projectFilePath": "C:\\Users\\Santiago\\Documents\\UTN\\Laboratorio II\\EjercicioIntegrador01\\MiCalculadora\\MiCalculadora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
