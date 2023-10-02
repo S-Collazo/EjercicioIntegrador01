@@ -35,7 +35,7 @@
             lblPrimerOperador = new Label();
             lblOperacion = new Label();
             lblSegundoOperador = new Label();
-            txtprimerOperador = new TextBox();
+            txtPrimerOperador = new TextBox();
             txtSegundoOperador = new TextBox();
             cmbOperacion = new ComboBox();
             btnOperar = new Button();
@@ -121,14 +121,14 @@
             lblSegundoOperador.TabIndex = 4;
             lblSegundoOperador.Text = "Segundo operador:";
             // 
-            // txtprimerOperador
+            // txtPrimerOperador
             // 
-            txtprimerOperador.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            txtprimerOperador.Location = new Point(70, 407);
-            txtprimerOperador.Name = "txtprimerOperador";
-            txtprimerOperador.Size = new Size(291, 34);
-            txtprimerOperador.TabIndex = 2;
-            txtprimerOperador.TextChanged += txtprimerOperador_TextChanged;
+            txtPrimerOperador.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPrimerOperador.Location = new Point(70, 407);
+            txtPrimerOperador.Name = "txtPrimerOperador";
+            txtPrimerOperador.Size = new Size(291, 34);
+            txtPrimerOperador.TabIndex = 2;
+            txtPrimerOperador.TextChanged += txtprimerOperador_TextChanged;
             // 
             // txtSegundoOperador
             // 
@@ -193,7 +193,7 @@
             Controls.Add(btnOperar);
             Controls.Add(cmbOperacion);
             Controls.Add(txtSegundoOperador);
-            Controls.Add(txtprimerOperador);
+            Controls.Add(txtPrimerOperador);
             Controls.Add(lblSegundoOperador);
             Controls.Add(lblOperacion);
             Controls.Add(lblPrimerOperador);
@@ -222,7 +222,7 @@
         private Label lblPrimerOperador;
         private Label lblOperacion;
         private Label lblSegundoOperador;
-        private TextBox txtprimerOperador;
+        private TextBox txtPrimerOperador;
         private TextBox txtSegundoOperador;
         private ComboBox cmbOperacion;
         private Button btnOperar;

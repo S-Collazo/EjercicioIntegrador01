@@ -152,23 +152,27 @@
 
         public static Numeracion operator -(Numeracion n1, Numeracion n2)
         {
-            double suma = n1.valorNumerico - n2.valorNumerico;
+            double resta = n1.valorNumerico - n2.valorNumerico;
 
-            Numeracion resultado = new(suma, n1.Sistema);
+            Numeracion resultado = new(resta, n1.Sistema);
             return resultado;
         }
         public static Numeracion operator *(Numeracion n1, Numeracion n2)
         {
-            double suma = n1.valorNumerico * n2.valorNumerico;
+            double multiplicacion = n1.valorNumerico * n2.valorNumerico;
 
-            Numeracion resultado = new(suma, n1.Sistema);
+            Numeracion resultado = new(multiplicacion, n1.Sistema);
             return resultado;
         }
         public static Numeracion operator /(Numeracion n1, Numeracion n2)
         {
-            double suma = n1.valorNumerico / n2.valorNumerico;
-
-            Numeracion resultado = new(suma, n1.Sistema);
+            if(n2.valorNumerico == 0)
+            {
+                n2.valorNumerico = 1;
+            }
+            double division = n1.valorNumerico / n2.valorNumerico;
+  
+            Numeracion resultado = new(division, n1.Sistema);
             return resultado;
         }
     }
